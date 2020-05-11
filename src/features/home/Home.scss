@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  align-items: center;
+  padding: 0 5vh 10vh;
+
+  h1 {
+    font-size: 45px;
+  }
+}
+
+.home__photo {
+  border: 0;
+  box-shadow: 0 0 5px #707880;
+  border-radius: 100%;
+  margin: 0 10vh 0 20vh;
+  width: 300px;
+}
+
+.home__intro {
+  margin-right: 20vh;
+  
+  span {
+    font-size: 18px;
+  }
+}
