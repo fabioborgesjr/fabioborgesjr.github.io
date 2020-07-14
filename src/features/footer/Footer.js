@@ -1,5 +1,5 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./Footer.scss";
 
 export default function Footer() {
@@ -12,12 +12,12 @@ export default function Footer() {
         <ul className="footer__list">
           <li className="footer__list-item">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/fabioborgesjr/">
-              <FontAwesomeIcon icon={['fab', 'linkedin']} />
+              <FontAwesomeIcon icon={["fab", "linkedin"]} />
             </a>
           </li>
           <li className="footer__list-item">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/salazenas">
-              <FontAwesomeIcon icon={['fab', 'github']} />
+              <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
           </li>
         </ul>
