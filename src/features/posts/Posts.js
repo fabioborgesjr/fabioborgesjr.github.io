@@ -1,17 +1,15 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from "react-redux";
-import { headersObject } from "../../helpers/Constants";
+import { posts } from "../../modules/constants/PageConstants";
 import {
   setActivePage
 } from '../../reducers/main';
-
-const page = headersObject.posts;
 
 export default function Posts() {
   const dispatch = useDispatch();
   
   useEffect(() => {
-    dispatch(setActivePage(page));
+    dispatch(setActivePage(posts));
   }, [dispatch]);
 
   return (

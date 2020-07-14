@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import { headersObject } from "../../helpers/Constants";
+import * as pages from "../../modules/constants/PageConstants";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  setActivePage,
-  getActivePage
-} from '../../reducers/main';
+import { setActivePage, getActivePage } from "../../reducers/main";
 
 function Header(props) {
   const activePage = useSelector(getActivePage);
@@ -24,25 +21,25 @@ function Header(props) {
     } else {
       dispatch(setActivePage(headerClicked));
     }
-  }
+  };
 
   const getLink = (link, text) => {
     return (
       <li key={link}>
-        <Link className={getClassName(text)} to={`/${link}`} onClick={handleClick}>
+        <Link
+          className={getClassName(text)}
+          to={`/${link}`}
+          onClick={handleClick}
+        >
           {text}
         </Link>
       </li>
     );
   };
 
-  return (
-    <header className="header">
-      <ul>
-        {Object.keys(headersObject).map((index) => getLink(index, headersObject[index]))}
-      </ul>
-    </header>
-  );
+  return activePage && activePage !== pages.home ? (
+    <header className="header"></header>
+  ) : null;
 }
 
 Header.propTypes = {};
