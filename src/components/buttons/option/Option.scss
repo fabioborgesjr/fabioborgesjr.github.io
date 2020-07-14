@@ -1,0 +1,21 @@
+$mainColor: #1c1c1c;
+$secundaryColor: #ffffff;
+
+.option {
+  display: block;
+  color: $secundaryColor;
+  background-color: $mainColor;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 17px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all .25s cubic-bezier(.08, .59, .29, .99);
+  border: solid $mainColor 2px;
+  border-radius: 50rem;
+
+  &:hover {
+    color: $mainColor;
+    background-color: $secundaryColor;
+  }
+}
