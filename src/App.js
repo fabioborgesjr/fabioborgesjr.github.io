@@ -9,7 +9,7 @@ import Footer from "./features/footer/Footer";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-import "./App.css";
+import "./App.scss";
 
 library.add(fab);
 
