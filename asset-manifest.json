@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/salazenas.github.io/static/css/main.01107dad.chunk.css",
-    "main.js": "/salazenas.github.io/static/js/main.dba140cf.chunk.js",
-    "main.js.map": "/salazenas.github.io/static/js/main.dba140cf.chunk.js.map",
-    "runtime-main.js": "/salazenas.github.io/static/js/runtime-main.6df65bd4.js",
-    "runtime-main.js.map": "/salazenas.github.io/static/js/runtime-main.6df65bd4.js.map",
-    "static/js/2.303efa3f.chunk.js": "/salazenas.github.io/static/js/2.303efa3f.chunk.js",
-    "static/js/2.303efa3f.chunk.js.map": "/salazenas.github.io/static/js/2.303efa3f.chunk.js.map",
-    "index.html": "/salazenas.github.io/index.html",
-    "precache-manifest.99752980c001326362ee3daa936ff0fd.js": "/salazenas.github.io/precache-manifest.99752980c001326362ee3daa936ff0fd.js",
-    "service-worker.js": "/salazenas.github.io/service-worker.js",
-    "static/css/main.01107dad.chunk.css.map": "/salazenas.github.io/static/css/main.01107dad.chunk.css.map",
-    "static/js/2.303efa3f.chunk.js.LICENSE.txt": "/salazenas.github.io/static/js/2.303efa3f.chunk.js.LICENSE.txt"
+    "main.css": "/fabioborgesjr.github.io/static/css/main.01107dad.chunk.css",
+    "main.js": "/fabioborgesjr.github.io/static/js/main.c6c5a542.chunk.js",
+    "main.js.map": "/fabioborgesjr.github.io/static/js/main.c6c5a542.chunk.js.map",
+    "runtime-main.js": "/fabioborgesjr.github.io/static/js/runtime-main.de50f9f0.js",
+    "runtime-main.js.map": "/fabioborgesjr.github.io/static/js/runtime-main.de50f9f0.js.map",
+    "static/js/2.876d223a.chunk.js": "/fabioborgesjr.github.io/static/js/2.876d223a.chunk.js",
+    "static/js/2.876d223a.chunk.js.map": "/fabioborgesjr.github.io/static/js/2.876d223a.chunk.js.map",
+    "index.html": "/fabioborgesjr.github.io/index.html",
+    "precache-manifest.72eb4f021da61fb9f8a511ba0ee4ae3a.js": "/fabioborgesjr.github.io/precache-manifest.72eb4f021da61fb9f8a511ba0ee4ae3a.js",
+    "service-worker.js": "/fabioborgesjr.github.io/service-worker.js",
+    "static/css/main.01107dad.chunk.css.map": "/fabioborgesjr.github.io/static/css/main.01107dad.chunk.css.map",
+    "static/js/2.876d223a.chunk.js.LICENSE.txt": "/fabioborgesjr.github.io/static/js/2.876d223a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6df65bd4.js",
-    "static/js/2.303efa3f.chunk.js",
+    "static/js/runtime-main.de50f9f0.js",
+    "static/js/2.876d223a.chunk.js",
     "static/css/main.01107dad.chunk.css",
-    "static/js/main.dba140cf.chunk.js"
+    "static/js/main.c6c5a542.chunk.js"
   ]
 }
