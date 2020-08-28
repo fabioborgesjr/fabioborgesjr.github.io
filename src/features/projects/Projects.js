@@ -22,12 +22,12 @@ const reactProjects = [
   {
     name: "Lista de contatos",
     image: "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5f111eb08254ed00075c6a8d/screenshot.png",
-    url: "https://salazenas-contactlist.netlify.app/"
+    url: "https://fabioborgesjr-contactlist.netlify.app/"
   },
   {
     name: "Calculadora",
     image: "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5f112101206b010007a23b15/screenshot.png",
-    url: "https://salazenas-calculadora.netlify.app/"
+    url: "https://fabioborgesjr-calculadora.netlify.app/"
   }
 ];
 
@@ -59,7 +59,7 @@ export default function Projects() {
     <section style={sectionStyle}>
       <span>
         {"Essa seção ainda está em desenvolvimento, veja todos os meus projetos no meu "}
-        <a href="https://github.com/salazenas" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/fabioborgesjr" target="_blank" rel="noopener noreferrer">
           {"Github"}
         </a>
       </span>

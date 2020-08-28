@@ -25,7 +25,7 @@ export default function Home() {
       <div className="content">
         <img
           className="home__photo"
-          src="https://avatars.githubusercontent.com/salazenas"
+          src="https://avatars.githubusercontent.com/fabioborgesjr"
           alt="Homepage"
         />
         <div className="home__intro">

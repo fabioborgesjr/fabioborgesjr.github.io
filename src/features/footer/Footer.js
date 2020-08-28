@@ -16,7 +16,7 @@ export default function Footer() {
             </a>
           </li>
           <li className="footer__list-item">
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/salazenas">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/fabioborgesjr">
               <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
           </li>
