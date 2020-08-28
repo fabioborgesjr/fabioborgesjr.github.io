@@ -20,6 +20,11 @@ export default function Footer() {
               <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
           </li>
+          <li className="footer__list-item">
+            <a target="_blank" rel="noopener noreferrer" href="mailto:fabioborgesjr@protonmail.com">
+              <FontAwesomeIcon icon={["fas", "envelope"]} />
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./features/home/Home";
 import About from "./features/about/About";
@@ -8,12 +8,18 @@ import Header from "./features/header/Header";
 import Footer from "./features/footer/Footer";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
 import "./App.scss";
 
 library.add(fab);
+library.add(fas);
 
 function App(props) {
+  useEffect(() => {
+    window.scrollTo(0, 1000);
+  }, []);
+
   return (
     <Router>
       <div className="App">
