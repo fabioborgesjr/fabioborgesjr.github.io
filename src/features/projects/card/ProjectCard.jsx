@@ -7,7 +7,8 @@ const cardStyle = {
   borderRadius: "1em",
   marginBottom: "1rem",
   flexDirection: "row",
-  flexWrap: "wrap"
+  flexWrap: "wrap",
+  width: 450
 };
 
 const screenshotStyle = {
