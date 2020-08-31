@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Home from "./features/home/Home";
 import About from "./features/about/About";
 import Projects from "./features/projects/Projects";
@@ -36,7 +41,7 @@ function App(props) {
             <Posts />
           </Route>
           <Route path="/">
-            <Redirect to="/home"/>
+            <Redirect to="/home" />
           </Route>
         </Switch>
         <Footer />
