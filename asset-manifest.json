@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/fabioborgesjr.github.io/static/css/main.d1106c88.chunk.css",
-    "main.js": "/fabioborgesjr.github.io/static/js/main.d7c86702.chunk.js",
-    "main.js.map": "/fabioborgesjr.github.io/static/js/main.d7c86702.chunk.js.map",
+    "main.css": "/fabioborgesjr.github.io/static/css/main.971008d3.chunk.css",
+    "main.js": "/fabioborgesjr.github.io/static/js/main.35d74592.chunk.js",
+    "main.js.map": "/fabioborgesjr.github.io/static/js/main.35d74592.chunk.js.map",
     "runtime-main.js": "/fabioborgesjr.github.io/static/js/runtime-main.de50f9f0.js",
     "runtime-main.js.map": "/fabioborgesjr.github.io/static/js/runtime-main.de50f9f0.js.map",
     "static/js/2.cd223749.chunk.js": "/fabioborgesjr.github.io/static/js/2.cd223749.chunk.js",
     "static/js/2.cd223749.chunk.js.map": "/fabioborgesjr.github.io/static/js/2.cd223749.chunk.js.map",
     "index.html": "/fabioborgesjr.github.io/index.html",
-    "precache-manifest.6d91435ba4c72641de56a69004e1b2a6.js": "/fabioborgesjr.github.io/precache-manifest.6d91435ba4c72641de56a69004e1b2a6.js",
+    "precache-manifest.a0fc43d78f78ae5e89d4fc7372d730b5.js": "/fabioborgesjr.github.io/precache-manifest.a0fc43d78f78ae5e89d4fc7372d730b5.js",
     "service-worker.js": "/fabioborgesjr.github.io/service-worker.js",
-    "static/css/main.d1106c88.chunk.css.map": "/fabioborgesjr.github.io/static/css/main.d1106c88.chunk.css.map",
+    "static/css/main.971008d3.chunk.css.map": "/fabioborgesjr.github.io/static/css/main.971008d3.chunk.css.map",
     "static/js/2.cd223749.chunk.js.LICENSE.txt": "/fabioborgesjr.github.io/static/js/2.cd223749.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.de50f9f0.js",
     "static/js/2.cd223749.chunk.js",
-    "static/css/main.d1106c88.chunk.css",
-    "static/js/main.d7c86702.chunk.js"
+    "static/css/main.971008d3.chunk.css",
+    "static/js/main.35d74592.chunk.js"
   ]
 }
