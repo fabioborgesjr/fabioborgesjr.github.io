@@ -1,22 +1,29 @@
-@import '../../../App.scss';
+@import "../../../App.scss";
 
 $mainColor: #1c1c1c;
 
 .option {
   display: block;
   color: white;
-  background-color: $mainColor;
+  background-color: transparent;
   text-align: center;
   margin-bottom: 20px;
   padding: 17px;
   text-decoration: none;
   font-size: 18px;
-  transition: all .25s cubic-bezier(.08, .59, .29, .99);
-  border: solid $mainColor 2px;
-  border-radius: 50rem;
+  transition: all 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+  border: none;
+  background: none;
+
+  @media all and (max-width: 1360px) {
+    border: solid $mainColor 2px;
+    border-radius: 50rem;
+  }
 
   &:hover {
     color: white;
     background-color: $appColor1;
+    border: solid $mainColor 2px;
+    border-radius: 50rem;
   }
 }
