@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22a17df295de5d4527e96877d38f71b1",
+    "revision": "5b2d759edb19372813057a7d438428fb",
     "url": "/fabioborgesjr.github.io/index.html"
   },
   {
-    "revision": "ecc30b6a10f03eebafc6",
-    "url": "/fabioborgesjr.github.io/static/css/main.78aa4f21.chunk.css"
+    "revision": "02f4de77a1eb1b6c7167",
+    "url": "/fabioborgesjr.github.io/static/css/main.d1106c88.chunk.css"
   },
   {
     "revision": "e2a6e246b31f93ffce1b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fabioborgesjr.github.io/static/js/2.cd223749.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecc30b6a10f03eebafc6",
-    "url": "/fabioborgesjr.github.io/static/js/main.b2c03e6b.chunk.js"
+    "revision": "02f4de77a1eb1b6c7167",
+    "url": "/fabioborgesjr.github.io/static/js/main.e682f074.chunk.js"
   },
   {
     "revision": "ac949deaed1e3dc1c999",
