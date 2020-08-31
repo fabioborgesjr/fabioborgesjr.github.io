@@ -1,0 +1,11 @@
+.project__groups {
+  display: flex;
+  align-items: center;
+  overflow: overlay;
+  flex-direction: column;
+  width: 50%;
+
+  @media all and (max-width: 600px) {
+    padding: 0 10%;
+  }
+}

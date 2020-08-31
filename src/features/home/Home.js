@@ -8,9 +8,28 @@ import { setActivePage } from "../../reducers/main";
 import "./Home.scss";
 
 const getOptions = () => {
-  return getOptionsArray().map((option) => (
-    <Option key={option} text={option} to={option.toLowerCase()} />
-  ));
+  return (
+    <div className="home__options">
+      {getOptionsArray().map((option) => (
+        <Option key={option} text={option} to={option.toLowerCase()} />
+      ))}
+    </div>
+  );
+};
+
+const getMe = () => {
+  return (
+    <div className="home__me">
+      <img
+        className="home__photo"
+        src="https://avatars.githubusercontent.com/fabioborgesjr"
+        alt="Homepage"
+      />
+      <div className="home__intro">
+        <h2>{"Hi, I'm Fábio and be welcome!"}</h2>
+      </div>
+    </div>
+  );
 };
 
 export default function Home() {
@@ -21,16 +40,9 @@ export default function Home() {
   }, [dispatch]);
 
   return (
-    <Section className="home">
+    <Section fullWidth className="home">
       <div className="content">
-        <img
-          className="home__photo"
-          src="https://avatars.githubusercontent.com/fabioborgesjr"
-          alt="Homepage"
-        />
-        <div className="home__intro">
-          <h2>Hi, I'm Fábio and be welcome!</h2>
-        </div>
+        {getMe()}
         {getOptions()}
       </div>
     </Section>

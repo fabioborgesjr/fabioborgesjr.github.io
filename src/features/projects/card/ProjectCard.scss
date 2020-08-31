@@ -1,6 +1,25 @@
+@import "../../../App.scss";
+
 .project__info {
   span {
     display: flex;
     width: 100%;
+  }
+}
+
+.project__card {
+  display: flex;
+  background-color: $appColor2;
+  color: black;
+  border-radius: 1em;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 450;
+
+  @media all and (max-width: 600px) {
+    img {
+      width: -webkit-fill-available;
+    }
   }
 }

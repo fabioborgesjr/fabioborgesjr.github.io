@@ -1,0 +1,23 @@
+.project__group-name {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    padding-inline-end: 5px;
+  }
+
+  button {
+    color: white;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .svg-inline--fa {
+    display: flex;
+    align-items: center;
+  }
+}

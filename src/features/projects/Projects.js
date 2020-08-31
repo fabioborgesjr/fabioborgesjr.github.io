@@ -1,31 +1,34 @@
-import React, { useEffect, Fragment } from "react";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { projects } from "../../modules/constants/PageConstants";
 import { setActivePage } from "../../reducers/main";
-import ProjectCard from "./card/ProjectCard";
+import ProjectGroup from "./group/ProjectGroup";
 import data from "./data";
+import "./Projects.scss";
 
 const sectionStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  width: "50%"
+  width: "100%",
+  overflow: "hidden",
+  paddingBottom: "1em"
 };
 
-
-const getProjects = (projects) => {
-  return projects.map((project) => (
-    <ProjectCard key={project.name} {...project} />
-  ));
+const projectTempIntroStyle = {
+  width: "50%",
+  textAlign: "center",
+  paddingBottom: 18,
 };
 
 const getGroups = () => {
-  return data.map((group) => (
-    <Fragment>
-      <h1>{group.name}</h1>
-      {getProjects(group.projects)}
-    </Fragment>
-  ));
+  return (
+    <div className="project__groups">
+      {data.map((group, index) => (
+        <ProjectGroup key={index} group={group} />
+      ))}
+    </div>
+  );
 };
 
 export default function Projects() {
@@ -37,7 +40,7 @@ export default function Projects() {
 
   return (
     <section style={sectionStyle}>
-      <span>
+      <span style={projectTempIntroStyle}>
         {
           "Essa seção ainda está em desenvolvimento, veja todos os meus projetos no meu "
         }

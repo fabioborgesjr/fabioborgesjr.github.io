@@ -1,12 +1,10 @@
 import React, { useEffect, useCallback, useState, Fragment } from "react";
 import Loading from "../loading/Loading";
 
-const sectionStyle = {
-  width: "50%",
-};
-
-export default function Section(props) {
-  const [isLoading, setIsLoading] = useState(document.readyState !== "complete");
+export default function Section({ children, className, fullWidth }) {
+  const [isLoading, setIsLoading] = useState(
+    document.readyState !== "complete"
+  );
   const loadingCallback = useCallback(() => {
     setIsLoading(!isLoading);
   }, [isLoading]);
@@ -22,10 +20,14 @@ export default function Section(props) {
     <Fragment>
       {isLoading ? <Loading /> : null}
       <section
-        className={props.className}
-        style={{ ...sectionStyle, display: isLoading ? "none" : "flex" }}
+        className={className}
+        style={{
+          width: fullWidth ? "100%" : "50%",
+          display: isLoading ? "none" : "flex",
+          height: "inherit"
+        }}
       >
-        {props.children}
+        {children}
       </section>
     </Fragment>
   );

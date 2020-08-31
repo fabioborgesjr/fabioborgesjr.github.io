@@ -1,26 +1,53 @@
 .home {
-  padding-top: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 
   .content {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    @media all and (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .home__me {
+      display: flex;
+      flex-direction: column;
+
+      @media all and (max-width: 600px) {
+        width: 100%;
+        align-items: center;
+      }
+    }
+
     .home__photo {
       border: 0;
       box-shadow: 0 0 5px #707880;
       border-radius: 100%;
       width: 300px;
     }
-    
+
     .home__intro {
       padding-bottom: 2em;
-    
+
       span {
         font-size: 18px;
+      }
+    }
+
+    .home__options {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+
+      @media all and (min-width: 601px) {
+        height: 300px;
       }
     }
 
