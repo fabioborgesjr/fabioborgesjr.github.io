@@ -26,7 +26,7 @@ const getMe = () => {
         alt="Homepage"
       />
       <div className="home__intro">
-        <h2>{"Hi, I'm Fábio and be welcome!"}</h2>
+        <h3>{"Hi, I'm Fábio and be welcome!"}</h3>
       </div>
     </div>
   );

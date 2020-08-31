@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   width: 450;
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 1360px) {
     img {
       width: -webkit-fill-available;
     }

@@ -12,7 +12,8 @@ const sectionStyle = {
   alignItems: "center",
   width: "100%",
   overflow: "hidden",
-  paddingBottom: "1em"
+  paddingBottom: "1em",
+  height: "100%"
 };
 
 const projectTempIntroStyle = {

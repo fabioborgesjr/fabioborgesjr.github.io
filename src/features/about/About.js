@@ -13,7 +13,7 @@ export default function About() {
 
   return (
     <Section>
-      <article>
+      <article style={{ height: "fit-content" }}>
         <span>
           {"I'm a brazilian developer with 3+ years of experience, working" +
             " at the most of time in web applications development " +
